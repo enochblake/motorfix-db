@@ -1,0 +1,33 @@
+[22-Oct-2025 20:43:04 Africa/Nairobi] PHP Warning:  Undefined array key "SMTP_FROM_EMAIL" in /home/motorfix/public_html/contact.php on line 67
+[22-Oct-2025 20:43:04 Africa/Nairobi] PHP Warning:  Undefined array key "SMTP_FROM_NAME" in /home/motorfix/public_html/contact.php on line 67
+[22-Oct-2025 20:43:04 Africa/Nairobi] PHPMailer Error: Invalid address:  (From): 
+[22-Oct-2025 22:33:22 Africa/Nairobi] PHP Warning:  Undefined array key "SMTP_FROM_EMAIL" in /home/motorfix/public_html/contact.php on line 67
+[22-Oct-2025 22:33:22 Africa/Nairobi] PHP Warning:  Undefined array key "SMTP_FROM_NAME" in /home/motorfix/public_html/contact.php on line 67
+[22-Oct-2025 22:33:22 Africa/Nairobi] PHPMailer Error: Invalid address:  (From): 
+[27-Oct-2025 20:50:51 Africa/Nairobi] PHPMailer Error: Invalid address:  (Reply-To): Leon
+[27-Oct-2025 20:51:44 Africa/Nairobi] PHPMailer Error: Invalid address:  (Reply-To): test user
+[27-Oct-2025 20:57:02 Africa/Nairobi] PHPMailer Error: SMTP Error: Could not authenticate.
+[27-Oct-2025 18:05:46 UTC] PHP Parse error:  syntax error, unexpected token "use" in /home/motorfix/public_html/product.php on line 52
+[27-Oct-2025 21:06:36 Africa/Nairobi] PHPMailer Error: SMTP Error: Could not authenticate.
+[27-Oct-2025 21:11:14 Africa/Nairobi] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'motorfix_inject'@'localhost' (using password: YES)
+[27-Oct-2025 21:13:32 Africa/Nairobi] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'motorfix_inject'@'localhost' (using password: YES)
+[27-Oct-2025 21:28:12 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function parse_ini_file() in /home/motorfix/public_html/product.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/product.php on line 23
+[29-Oct-2025 14:51:30 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function parse_ini_file() in /home/motorfix/public_html/product.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/product.php on line 23
+[29-Oct-2025 15:01:07 Africa/Nairobi] PHPMailer Error: Invalid address:  (Reply-To): Leonard Muia
+[29-Oct-2025 12:01:53 UTC] PHP Parse error:  syntax error, unexpected identifier "a", expecting "," or ";" in /home/motorfix/public_html/product.php on line 342
+[29-Oct-2025 12:02:09 UTC] PHP Parse error:  syntax error, unexpected identifier "a", expecting "," or ";" in /home/motorfix/public_html/product.php on line 342
+[29-Oct-2025 15:02:57 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/motorfix/public_html/product.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/product.php on line 139
+[29-Oct-2025 15:04:06 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/motorfix/public_html/product.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/product.php on line 139
+[30-Oct-2025 17:20:13 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in /home/motorfix/public_html/index.php on line 136

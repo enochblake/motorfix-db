@@ -1,0 +1,133 @@
+[13-Oct-2025 15:21:13 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/motorfix/public_html/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/motorfix/public_html/vendor/composer/autoload_real.php(25): require()
+#1 /home/motorfix/public_html/vendor/autoload.php(22): ComposerAutoloaderInite875ae8441d070d7dda5f4b47a2117aa::getLoader()
+#2 /home/motorfix/public_html/db.php(17): require_once('/home/motorfix/...')
+#3 /home/motorfix/public_html/u/register.php(21): require_once('/home/motorfix/...')
+#4 {main}
+  thrown in /home/motorfix/public_html/vendor/composer/platform_check.php on line 22
+[13-Oct-2025 15:23:29 UTC] Database Connection Error: SQLSTATE[42000] [1044] Access denied for user 'motorfix_inject'@'localhost' to database 'motor'
+[13-Oct-2025 15:27:47 UTC] Database Connection Error: SQLSTATE[42000] [1044] Access denied for user 'motorfix_inject'@'localhost' to database 'motor'
+[14-Oct-2025 10:25:51 UTC] PHP Warning:  require_once(/home/motorfix/public_html/u../db.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/login.php on line 19
+[14-Oct-2025 10:25:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/motorfix/public_html/u../db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/login.php on line 19
+[14-Oct-2025 10:28:56 UTC] PHP Warning:  require_once(/home/motorfix/public_html/u../db.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/login.php on line 19
+[14-Oct-2025 10:28:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/motorfix/public_html/u../db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/login.php on line 19
+[14-Oct-2025 10:29:35 UTC] PHP Warning:  require_once(/home/motorfix/public_html/u../db.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/login.php on line 19
+[14-Oct-2025 10:29:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/motorfix/public_html/u../db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/login.php on line 19
+[14-Oct-2025 11:01:05 UTC] PHP Warning:  require_once(sheader.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/sdashboard.php on line 3
+[14-Oct-2025 11:01:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'sheader.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/sdashboard.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/sdashboard.php on line 3
+[14-Oct-2025 15:56:41 Africa/Nairobi] Database Connection Error: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Africa/Nairobi'
+[14-Oct-2025 16:09:01 Africa/Nairobi] Database Connection Error: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Africa/Nairobi'
+[14-Oct-2025 13:15:36 UTC] PHP Parse error:  syntax error, unexpected variable "$options", expecting ")" in /home/motorfix/public_html/db.php on line 46
+[14-Oct-2025 16:26:19 Africa/Nairobi] Database Connection Error: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Africa/Nairobi'
+[15-Oct-2025 12:26:56 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "->" or "?->" or "{" or "[" in /home/motorfix/public_html/u/manage_inventory.php on line 42
+[16-Oct-2025 11:14:57 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 353
+[16-Oct-2025 11:14:57 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 353
+[16-Oct-2025 11:14:57 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 356
+[16-Oct-2025 11:14:57 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 355
+[16-Oct-2025 11:14:57 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 356
+[16-Oct-2025 11:14:57 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 388
+[16-Oct-2025 11:23:07 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:23:07 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:23:07 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:23:07 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 448
+[16-Oct-2025 11:23:07 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:23:07 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 471
+[16-Oct-2025 11:23:32 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:23:32 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:23:32 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:23:32 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 448
+[16-Oct-2025 11:23:32 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:23:32 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 471
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 448
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 448
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:23:41 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 471
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 448
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 446
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 448
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 449
+[16-Oct-2025 11:25:09 Africa/Nairobi] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/manage_inventory.php on line 471
+[16-Oct-2025 22:08:16 Africa/Nairobi] PHP Warning:  Undefined array key "product_id" in /home/motorfix/public_html/u/record_sale.php on line 143
+[16-Oct-2025 22:08:16 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'product_id' cannot be null in /home/motorfix/public_html/u/record_sale.php:143
+Stack trace:
+#0 /home/motorfix/public_html/u/record_sale.php(143): PDOStatement->execute()
+#1 {main}
+  thrown in /home/motorfix/public_html/u/record_sale.php on line 143
+[17-Oct-2025 08:26:00 Africa/Nairobi] PHP Warning:  Undefined array key "user_email" in /home/motorfix/public_html/u/branch_reports.php on line 293
+[17-Oct-2025 08:26:00 Africa/Nairobi] Report Email Error: Invalid address:  (Reply-To): 
+[19-Oct-2025 14:25:48 UTC] PHP Warning:  require_once(ic/cheader.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/cdashboard.php on line 22
+[19-Oct-2025 14:25:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'ic/cheader.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/cdashboard.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/cdashboard.php on line 22
+[20-Oct-2025 16:28:32 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/motorfix/public_html/u/ic/aheader.php on line 27) in /home/motorfix/public_html/u/manage_inventory.php on line 18
+[21-Oct-2025 11:56:01 Africa/Nairobi] Dashboard API Error: Invalid action specified.
+[21-Oct-2025 11:56:01 Africa/Nairobi] Dashboard API Error: Invalid action specified.
+[21-Oct-2025 09:14:11 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:14:14 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:14:16 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:14:19 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:15:16 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:15:16 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:15:16 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:15:16 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:16:08 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:17:07 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:18:08 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:19:07 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:20:07 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:21:08 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:22:07 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[21-Oct-2025 09:23:07 UTC] PHP Warning:  Undefined array key "last_visitor_heartbeat" in /home/motorfix/public_html/u/cdashboard.php on line 164
+[23-Oct-2025 14:23:57 Africa/Nairobi] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/motorfix/public_html/u/products.php on line 61
+[23-Oct-2025 14:46:05 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/motorfix/public_html/u/products.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/products.php on line 141
+[23-Oct-2025 13:47:50 UTC] PHP Warning:  require_once(/home/motorfix/public_html/u/../../db.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/blog_ajax.php on line 19
+[23-Oct-2025 13:47:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/motorfix/public_html/u/../../db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/blog_ajax.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/blog_ajax.php on line 19
+[23-Oct-2025 13:48:16 UTC] PHP Warning:  require_once(/home/motorfix/public_html/u/../../db.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/blog_ajax.php on line 19
+[23-Oct-2025 13:48:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/motorfix/public_html/u/../../db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/blog_ajax.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/blog_ajax.php on line 19
+[23-Oct-2025 13:48:28 UTC] PHP Warning:  require_once(/home/motorfix/public_html/u/../../db.php): Failed to open stream: No such file or directory in /home/motorfix/public_html/u/blog_ajax.php on line 19
+[23-Oct-2025 13:48:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/motorfix/public_html/u/../../db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/motorfix/public_html/u/blog_ajax.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/motorfix/public_html/u/blog_ajax.php on line 19
+[13-Dec-2025 08:14:34 Africa/Nairobi] PHP Warning:  Undefined array key "email" in /home/motorfix/public_html/u/index.php on line 201
+[13-Dec-2025 08:14:34 Africa/Nairobi] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/index.php on line 201
+[13-Dec-2025 08:14:34 Africa/Nairobi] PHP Warning:  Undefined array key "password" in /home/motorfix/public_html/u/index.php on line 202
+[14-Apr-2026 05:26:50 Africa/Nairobi] PHP Warning:  Undefined array key "email" in /home/motorfix/public_html/u/index.php on line 201
+[14-Apr-2026 05:26:50 Africa/Nairobi] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/index.php on line 201
+[14-Apr-2026 05:26:50 Africa/Nairobi] PHP Warning:  Undefined array key "password" in /home/motorfix/public_html/u/index.php on line 202
+[27-Apr-2026 04:31:20 Africa/Nairobi] PHP Warning:  Undefined array key "email" in /home/motorfix/public_html/u/index.php on line 201
+[27-Apr-2026 04:31:20 Africa/Nairobi] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/index.php on line 201
+[27-Apr-2026 04:31:20 Africa/Nairobi] PHP Warning:  Undefined array key "password" in /home/motorfix/public_html/u/index.php on line 202
+[05-May-2026 13:42:25 Africa/Nairobi] PHP Warning:  Undefined array key "email" in /home/motorfix/public_html/u/index.php on line 201
+[05-May-2026 13:42:25 Africa/Nairobi] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/motorfix/public_html/u/index.php on line 201
+[05-May-2026 13:42:25 Africa/Nairobi] PHP Warning:  Undefined array key "password" in /home/motorfix/public_html/u/index.php on line 202

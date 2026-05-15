@@ -1,0 +1,1 @@
+[21-Oct-2025 10:56:07 Africa/Nairobi] Chat API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_agent_heartbeat' in 'WHERE'
