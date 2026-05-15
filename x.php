@@ -1,14 +1,5 @@
 <?php
-/**
- * Motor Fix Injection Services - Redesigned Landing Page
- * * Features:
- * - Compact hero section with simple search
- * - Dynamic product grid with share functionality
- * - Full-size images with fixed aspect ratio
- * - Mobile-first responsive design
- * * @version 2.1
- * @date Wednesday, October 22, 2025
- */
+
 
 require_once 'db.php';
 require_once 'head.php';
